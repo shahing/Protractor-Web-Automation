@@ -1,0 +1,29 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "angularjs e2e web automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahing/Protractor-Web-Automation.git"
+  },
+  "author": "Shahin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahing/Protractor-Web-Automation/issues"
+  },
+  "homepage": "https://github.com/shahing/Protractor-Web-Automation#readme",
+
+  "scripts": {
+  "protractor-server": "webdriver-manager update&& webdriver-manager start",
+  "test" : "protractor E2E/conf.js"
+},
+
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "protractor": "^5.4.2"
+  }
+}
